@@ -10,7 +10,7 @@ function App() {
         value="val1"
         options={["val1", "val2", "val3"]}
         onChange={(val) => {
-          // alert(val);
+          alert(val);
         }}
       />
 
