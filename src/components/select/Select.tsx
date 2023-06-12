@@ -107,7 +107,7 @@ export const Select: FC<SelectPropsInterface> = ({
             ? selectValue
             : isMultiple &&
               selectValue.map((e) => (
-                <SelectBadge>
+                <SelectBadge key={"k" + e}>
                   {e}
                   <AiFillCloseCircle
                     onClick={(event: MouseEvent | any) => {
